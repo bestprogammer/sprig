@@ -1638,7 +1638,7 @@ onInput("j", () => {
   lives = 3
   gameState = "playing"
   currentLevel = 0
-  loadLevel(80)
+  loadLevel(0)
 })
 
 onInput("k", () => {
