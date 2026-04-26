@@ -17,7 +17,7 @@ Tips:
 
 @author: bestprogammer
 @tags: ['stealth', 'delivery', 'arcade', 'illegal', 'police']
-@addedOn: 2026-04-23
+@addedOn: 2026-04-26
 */
 
 const player = "p"
@@ -1306,7 +1306,7 @@ function canMoveTo(nx, ny) {
 
 function showInstructions() {
   clearText()
-  addText("DELIVERY BOY 2", { x: 0, y: 0, color: color`4` })
+  addText("DELIVERY BOY", { x: 0, y: 0, color: color`4` })
   addText("----------------", { x: 0, y: 1, color: color`1` })
   addText("Transport ILLEGAL", { x: 0, y: 2, color: color`3` })
   addText("goods across the", { x: 0, y: 3, color: color`3` })
